@@ -139,7 +139,7 @@
 <!--Offcanvas: painel lateral oculto.-->
 <h1>Offcanvas</h1>
 <!-- Não utilizei Offcanvas pois não há elementos laterais ocultos que precisem ser exibidos por ação do usuário. -->
-<div class="offcanvas offcanvas-end show offcanvas-custom-heigh" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+<div class="offcanvas offcanvas-end show offcanvas-custom-heigh ml-5" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -275,7 +275,8 @@
     Tooltip on top
   </button>
 
-<script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 
