@@ -1,0 +1,12 @@
+.Footer{
+    height: 70px;
+    background: wheat;
+    bottom: 0;
+    position: absolute;
+}
+
+.spans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
