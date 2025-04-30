@@ -1,8 +1,8 @@
 .Footer{
     height: 70px;
-    background: wheat;
     bottom: 0;
-    position: absolute;
+    position: fixed;
+    color: white;
 }
 
 .spans{
